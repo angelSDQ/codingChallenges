@@ -22,7 +22,7 @@
 def reversed_string(input_s):
     reversed_s = ''
     for i in input_s:
-        reversed_s = i + reversed_s
+        reversed_s = i + reversed_s    
     return reversed_s
 
 print(reversed_string('Hello World'))
