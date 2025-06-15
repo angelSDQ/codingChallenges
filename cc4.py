@@ -35,4 +35,4 @@ def removeSpaces(s):
 
     return noSpacesString 
 
-print(removeSpaces('H               E               L   L                                           O'))
+print(removeSpaces('H E L   L O'))
