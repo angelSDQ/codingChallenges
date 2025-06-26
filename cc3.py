@@ -28,7 +28,6 @@
 
 #   return vowelsCount
 
-
 def vowelsMatch(s):
     vowelsCount = 0
     vowels = ["a", "e", "i", "o", "u"]
