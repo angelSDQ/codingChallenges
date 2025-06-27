@@ -28,15 +28,25 @@
 # compare ch to s(element)
 # if ch 
 
-# I have a bag of letters and a letter that I want to find
-# in the bag. I need pull all of the letters out of the bag
-# to make sure i dont miss any letters. 
-# Any time a letter is a match to the letter i'm looking for, 
-# I will remove it and save the letters that are not a 
-# match to a new bag to return it back. 
-
-
-# like removing a space but this case is a specific character
-
-# SOLUTION
+# THIS IS THE SOLUTION
 # 
+# Define a function pass 2 variables
+# declare a local variable
+# use a for loop to iterate through the input
+# use if statement to determine if ch is a match with any of the letters from the input
+# if match is not found add to the variable create before
+# return local variable
+# print and call function pass 2 inputs to test
+
+
+def removingLetter(s, ch):
+    newString = ""
+    for i in s:
+        if i != ch:
+            newString += i
+    return  newString
+
+print(removingLetter("hi, llldoll yllloul wallnt solmle tlea?", "l"))
+
+
+
