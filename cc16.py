@@ -98,9 +98,7 @@ def maskingPhoneNumber(phone):
         return phone
     elif len(phone) > 4:
         unMaskedNumbers = phone[-4:]
-        print(unMaskedNumbers)
         hidddenNumbers = phone[:-4]
-        print(hidddenNumbers)
     # "(757)-955"
     # "(***)-***"
     for i in hidddenNumbers:
@@ -110,4 +108,4 @@ def maskingPhoneNumber(phone):
             maskedPhoneNumber += i
     return maskedPhoneNumber + unMaskedNumbers
 
-print(maskingPhoneNumber("(757) 955 7890"))
+print(maskingPhoneNumber("123-456-7890"))
