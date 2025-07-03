@@ -84,7 +84,6 @@ def maskTheNumbers(text):
             for i in range(1, len(word)):
                 if word[i] not in nums:
                     secretNum += word[i]
-                    print(secretNum, "test")
                 elif word[i] in nums and word[i-1] == "+":
                     secretNum += "+1"
                 else:

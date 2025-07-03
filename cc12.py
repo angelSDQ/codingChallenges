@@ -45,8 +45,8 @@ def hidesNumbers(s):
     for i in s:
         if i in numbers:
             modifiedWord += "*"
-        # else:
-        #     modifiedWord += i
+        else:
+            modifiedWord += i
     
     return modifiedWord
 

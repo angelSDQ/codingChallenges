@@ -54,25 +54,25 @@ Constraints:
 #    return wordWithSymbols        
 
 
-# def replacingVowels(s):
-#     #keys = ["@", "#", "$", "%", "&"]
-#     vowels = ["a", "e", "i", "o", "u"]
-#     wordWithSymbols = ""
-#     for i in s.lower():
-#         if i == "a":
-#             wordWithSymbols += "@"
-#         elif i == "e":
-#             wordWithSymbols += "#"
-#         elif i == "i":
-#             wordWithSymbols += "$"
-#         elif i == "o":
-#             wordWithSymbols += "%"
-#         elif i == "u":
-#             wordWithSymbols += "&"
-#         else:
-#             wordWithSymbols += i
+def replacingVowels(s):
+    #keys = ["@", "#", "$", "%", "&"]
+    vowels = ["a", "e", "i", "o", "u"]
+    wordWithSymbols = ""
+    for i in s.lower():
+        if i == "a":
+            wordWithSymbols += "@"
+        elif i == "e":
+            wordWithSymbols += "#"
+        elif i == "i":
+            wordWithSymbols += "$"
+        elif i == "o":
+            wordWithSymbols += "%"
+        elif i == "u":
+            wordWithSymbols += "&"
+        else:
+            wordWithSymbols += i
     
-#     return wordWithSymbols
+    return wordWithSymbols
 
 # def replacingVowels(s):
 #     vowels = {"a" : "@", "e" : "#", "i" : "$", "o" : "%", "u" : "&"}
@@ -85,8 +85,8 @@ Constraints:
         
 #     return wordWithSymbols
 
-def replacingVowels(s):
-    vowels = {"a" : "@", "e" : "#", "i" : "$", "o" : "%", "u" : "&"}
-    return "".join([vowels[i.lower()] if i.lower() in vowels.keys() else i for i in s])
+# def replacingVowels(s):
+#     vowels = {"a" : "@", "e" : "#", "i" : "$", "o" : "%", "u" : "&"}
+#     return "".join([vowels[i.lower()] if i.lower() in vowels.keys() else i for i in s])
 
 print(replacingVowels("USA"))

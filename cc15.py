@@ -30,25 +30,15 @@
 
 # define a function maskingEmail() pass one parameter string email
 # def maskingEmail(email):
-#   declare 3 varibles and set to empty string
+#   declare varible and set to empty string
 #   securedEmail = ""
-#   unMaskedEmail = ""
-#   maskedEmail = ""
 #   use a for loop to iterate through email using range and len to get the index
 #   for i in range(len(email)):
 #       use if statemnet to find what the index of @ symbol is
 #       if email[i] == "@":
-#           store value of index number to inxNum
-#           inxNum = i
-#           use inx to slice the variables before and after the @ symbol
-#           unMaskedEmail = email[-inxNum:]  // elements after @
-#           maskedEmail = email[:-inxNum]    // elements before @
-#    use for loop to iterate maskedEmail and change these to "*" by storing in secureEmail
-#    for i in maskedEmail:
-#           securedEmail += "*"
-#    return and concatenate to bring everything togeteher
-#    return securedEmail + unMaskedEmail
-#
+#           return securedEmail + email[i:]
+#       each iteration securedEmail adds an "*"
+#       securedEmail += "*"
 #
 #  print and call
 #  print(maskingEmail("email"))        

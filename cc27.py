@@ -76,17 +76,17 @@ other words must remain the same
 
 
 def reverseVowels(s): 
-  modifiedWords = ""
-  words = s.split(" ")
-  vowels = ["a", "e", "i", "o", "u"]
-  for word in words:
-      if word[0].lower() in vowels:
-          backWordsVowels = ""
-          for i in range(len(word)-1, -1, -1):
-              backWordsVowels += word[i]
-          word = backWordsVowels
-      modifiedWords += word + " "
-  return modifiedWords
+    modifiedWords = ""
+    words = s.split(" ")
+    vowels = ["a", "e", "i", "o", "u"]
+    for word in words:
+        if word[0].lower() in vowels:
+            backWordsVowels = ""
+            for i in range(len(word)-1, -1, -1):
+                backWordsVowels += word[i]
+            word = backWordsVowels
+        modifiedWords += word + " "
+    return modifiedWords
 
 print(reverseVowels("Umbrella under sky is open"))
 

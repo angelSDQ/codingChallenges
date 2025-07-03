@@ -30,8 +30,16 @@
 #   else
 #       newString += i
 
-
 # return newString
+
+# LESSON LEARNED
+# look back at all previous coding challenges
+# always declare when doing coding challenges
+# Don't use methods
+# Use for loops, if statements
+# Return with correct indentantion
+# When declaring variables do it inside 
+# of the function to use them later
 
 def replaceWithSpace(s):
 

@@ -69,7 +69,7 @@ Goals quick glance
 #   maskedUsername = ""
 #   firstUnmaskedChar = ""
 #   masked = ""
-#   use if statement to check the lenght of the username
+#   use if statement to check the length of the username
 #   if len(username) <= 2:
 #       if less than 2 return it
 #       return username

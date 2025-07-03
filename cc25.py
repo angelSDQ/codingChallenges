@@ -62,6 +62,10 @@ but stay in the same placement of the sentence
 #
 # print call reversingWords()
 
+# my_list = [1, 2, 3, 4, 5]
+# my_list.reverse()
+# print(my_list)  outcome: [5, 4, 3, 2, 1]
+
 
 def reversingWords(s):
     reversedWords = ""
@@ -79,6 +83,7 @@ def reversingWords2(s):
     for word in words:
         reversedWords += word[::-1] + " "
     return reversedWords
+
 
 print(reversingWords("hello ME"))
 

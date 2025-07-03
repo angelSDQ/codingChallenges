@@ -67,12 +67,17 @@ Goals quick glance
 # Define a function maskingEmail() passing in 1 parameter email
 # def maskingEmail(email):
 #   declare variables
-#   use .split() method to separate email at the @ and store to emailName
-#   emailName = email.split("@")[1]
-#   endOfEmail = ""
-#   
-#   
-
+    # emailName = email.split("@")[0]
+    # endOfEmail = email.split("@")[1]
+    # secretDomain = ""
+#   use for loop with range and len    
+#   for i in range(len(endOfEmail)):
+#       use if statement
+#       if endOfEmail[i] == ".":
+#           secretDomain += "*"
+#           return emailName + "@" + secretDomain + endOfEmail[i:]
+#       secretDomain += "*"
+ 
 
 def maskingEmail(email):
     emailName = email.split("@")[0]
