@@ -26,7 +26,7 @@
 # Input: s = "Hello world"
 # Output: False
 
-#Pseudocode
+# Pseudocode
 
 # Define a function called checkingForPangram() passing one parameter s
 # def checkingForPangram(s):
@@ -35,18 +35,18 @@
 #   use a for loop to iterate on the list of letters 
 #   for letter in alphabet:
 #       use an if statement to check if the letter is not in s 
-#       if letter not in s:
+#       if letter.lower() not in s:
 #           return False
 #   return True
 
-#TIME 10:54:63
+# TIME 10:54:63 Python
 
 def checkingForPangram(s):
     alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
     for letter in alphabet:
-        if letter not in s:
+        if letter not in s.lower():
             return False
     return True
 
 
-print(checkingForPangram("The quick brown fox jumps over the laz dog"))
+print(checkingForPangram("The quick brown fox jumps over the laZy dog"))
