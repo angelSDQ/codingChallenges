@@ -48,7 +48,7 @@ function checkingForPangram(inputS) {
             return false
         }
     }
-    return true;
+    return true
 }
 
 console.log(checkingForPangram("The quiK BROWn fox jumps over the lazy dog"))
