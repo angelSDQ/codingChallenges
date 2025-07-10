@@ -32,33 +32,20 @@ package Java;
 
 public class cc4 {
     public static void main(String[] args) {
-        System.out.println(vowelsMatch("Ajsdbsdjbsjb"));
+        int count = vowelsMatch("leetcode");
+        System.out.println(count);
     }
-//     public static int vowelsMatch(String word) {
-//         char[] vowels = {'a', 'e', 'i', 'o', 'u'};
-//         int vowelsCount = 0;
-//         for (int i = 0; i < vowels.length; i++) {
-//             if (word.toLowerCase().contains(String.valueOf(vowels[i]))) {
-//                 System.out.println(vowels[i]);
-//                 System.out.println(word);
-//                 vowelsCount++;
-//             }
-//         }
-//         return vowelsCount;
-//     }
-// }
-
-public static int vowelsMatch(String word) {
-    char[] vowels = {'a', 'e', 'i', 'o', 'u'};
-    int vowelsCount = 0;
-    for (int i = 0; i < word.length(); i++) {
-        System.out.println(i);
-        if (word.toLowerCase().contains(String.valueOf(vowels[i]))) {
-            System.out.println(vowels[i]);
-            System.out.println(word);
-            vowelsCount++;
+    public static int vowelsMatch(String word) {
+        char[] vowels = {'a', 'e', 'i', 'o', 'u'};
+        int vowelsCount = 0;
+        for (int i = 0; i < vowels.length; i++) {
+            if (word.toLowerCase().contains(String.valueOf(vowels[i]))) {
+                System.out.println(vowels[i]);
+                System.out.println(word);
+                vowelsCount++;
+            }
         }
+        return vowelsCount;
     }
-    return vowelsCount;
 }
-}
+

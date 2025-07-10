@@ -53,7 +53,7 @@ public class cc8 {
         String theLongestWord = "";
         String[] words = s.split(" ");
         for (int i = 0; i < words.length; i++) {
-            if (words[i].length() > theLongestWord.length()) {
+            if (words[i].length() >= theLongestWord.length()) {
                 theLongestWord = words[i];
             }
         }
