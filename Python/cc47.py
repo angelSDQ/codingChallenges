@@ -23,26 +23,17 @@
 
 # define a function reversingNums() pssing one parameter nums
 # def reversingNums(nums):
-# create a variable numsReversed = nums.length
-# create a variable idx = 0
-# use a for loop to iterate on nums 
-# for i = nums.length() -1; i >= 0; i--:
-        #  set numsReversed[idx] equal to nums[i]
-        #  numsReversed[idx] = nums[i];
-#       decrement idx
-#       idx++
+    # create a variable numsReversed set to empty []
+    # numsReversed = []
+    # use a for loop to iterate on nums using range len to do it backwards 
+    # for i in range(len(nums)-1, -1, -1):
+        # use .append() pass nums[i] to populate numsReversed with the elements from nums
+        # numsReversed.append(nums[i])
 # return numsReversed
 
-
-
-
-
 def reversingNums(nums):
-    # set to empty list [] 
     numsReversed = []
-    # use range len(nums) and 
     for i in range(len(nums)-1, -1, -1):
-        # use .append() pass nums[i] to populate with element
         numsReversed.append(nums[i])
     return numsReversed
 

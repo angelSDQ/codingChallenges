@@ -26,15 +26,13 @@
 //         reversed_s = i + reversed_s    
 //     return reversed_s
 
-
-
-function reversed_string(input_s) {
-    let reversed_s = ''
-    for (let i = 0; i < input_s.length; i++) {
-        reversed_s = input_s[i] + reversed_s;
+// TRANSLATION
+function reversedString(inputS) {
+    let reversedS = ''
+    for (let i = 0; i < inputS.length; i++) {
+        reversedS = inputS[i] + reversedS;
     }
-    return reversed_s;
+    return reversedS;
 }
 
-console.log(reversed_string('ChatGPT'))
-
+console.log(reversedString('ChatGPT'))

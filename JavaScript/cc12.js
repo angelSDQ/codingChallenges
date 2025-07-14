@@ -24,23 +24,24 @@
 //  * - -10^3 <= nums[i] <= 10^3
 //  */
 
-// create function called squareNums passing 1 parameter nums
+// create a function called squareNums passing 1 parameter nums
 // function squareNums(nums) {
 //      declare a variable a variable called squaredR let type and set to []   
 //      let squaredR = [];
 //      use a for loop to iterate on nums
 //      for (let i = 0; i < nums.length; i++) {
-//          let squaredArray = nums.map(number => Math.pow(nums[i], 2));   
+//          use Math.pow( to raise the number times, pass (nums[i], 2). Use .push() to add all numbers into squaredR
+//          squaredR.push(Math.pow(nums[i], 2));  
 //      }
 //      return squaredArray;
 //}
 
 function squareNums(nums) {
     let squaredR = [];
-    for (let i = 0; i < nums.length; i++) {
-    squaredR.push(Math.pow(nums[i], 2));   
+    for (let num of nums) {
+        squaredR.push(Math.pow(num, 2));   
     }
     return squaredR;
 }
 
-console.log(squareNums([-1, -2, -3]));
+console.log(squareNums([-1, -2, -3, 4]));

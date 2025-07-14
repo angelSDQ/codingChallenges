@@ -35,6 +35,7 @@
 //     else:
 //         return False
 
+// TRANSLATION
 function palindromeChecker(inputP) {
     let palindromeWord = ''
     for (let i = 0; i < inputP.length; i++) {

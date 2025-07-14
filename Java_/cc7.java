@@ -52,7 +52,7 @@ package Java;
 //      } else {
 //          minOrMaxType = "maximum";
 //      }
-//      return "Vertex: (" + x + ", " + y "), Type: + minOrMaxType")       
+//      return "Vertex: (" + x + ", " + y "), Type: + minOrMaxType";   
 //  }
 //}
 public class cc7 {

@@ -57,14 +57,14 @@ public class cc8 {
 //}
 
 function findsTheLongestWord(s) {
-    let theLongestWord = ""
-    let words = s.split(" ")
+    let theLongestWord = "";
+    let words = s.split(" ");
     for (let i = 0; i < words.length; i++) {
         if (words[i].length > theLongestWord.length) {
-            theLongestWord = words[i]
+            theLongestWord = words[i];
         }
     }
-    return theLongestWord
+    return theLongestWord;
 }
 
-console.log(findsTheLongestWord("I love of artificial intelligence"))
+console.log(findsTheLongestWord("I love of artificial intelligence"));

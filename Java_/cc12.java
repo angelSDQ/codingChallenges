@@ -68,7 +68,6 @@ public class cc12 {
         List<Integer> squaringSolution = new ArrayList<>();
         for (int i = 0; i < nums.length; i++) {
             squaringSolution.add((int) Math.pow(nums[i], 2));
-            //squaringSolution[i] = ;
         }
     
         int[] finalSolution = new int[squaringSolution.size()];

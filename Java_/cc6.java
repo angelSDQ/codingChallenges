@@ -28,7 +28,7 @@ package Java;
 
 public class cc6 {
     public static void main(String[] args) {
-        float[] vertex = findVertex(1, 2,1);
+        float[] vertex = findVertex(1, -2,1);
         for (int i = 0; i < vertex.length; i++) {
             System.out.println(vertex[i]);
         }

@@ -53,5 +53,5 @@ function findsTheShortestWord(s) {
     }
     return shortestWord;
 }
-console.log(findsTheShortestWord("to be or not to mm"));
+console.log(findsTheShortestWord("to be or not to be"));
 

@@ -28,18 +28,18 @@
 # def squareNums(nums):
 #      declare a variable a variable called squaredR let type and set to []   
 #      squaredR = []
-#      use a for loop to iterate on nums using range len 
-#      for i in range(len(nums)):
-#          set squaredR to [nums[i] ** 2]
-#          squaredR.append(nums[i] ** 2))  
+#      use a for loop to iterate on nums using num
+#      for num in nums:
+#          set squaredR to [num ** 2]
+#          squaredR.append(num ** 2)
 #      }
 #      return squaredR
 #}
 
 def squareNums(nums):
     squaredR = []
-    for i in range(len(nums)):
-        squaredR.append(nums[i] ** 2) 
+    for num in nums:
+        squaredR.append(num ** 2) 
     return squaredR
 
 
