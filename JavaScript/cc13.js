@@ -34,7 +34,7 @@
 //      use a for loop to iterate on nums
 //      for (let num of nums) {
 //          now use the Math.pow() passing in nums and the exponent like this Math.pow(num, 2) and use .push to add them to squaredNums
-//          squaredR.push(Math.pow(num, exponent)); 
+//          squaredNums.push(Math.pow(num, exponent)); 
 //        }
 //      return squaredNums;
 //}
@@ -47,7 +47,6 @@ function raisedToExponent(nums, exponent) {
     for (let num of nums) {
         squaredNums.push(Math.pow(num, exponent)); 
     }
-    console.log(squaredNums);
     return squaredNums;
 }
 

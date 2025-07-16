@@ -1,4 +1,3 @@
-package Java;
 /*
 LeetCode-style Problem: Shortest Word in Sentence
 

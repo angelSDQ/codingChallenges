@@ -1,5 +1,3 @@
-package Java;
-
 // ✅ Problem: Pangram Check
 // 🟨 Difficulty: Easy
 // 📂 Category: String / Hash Set

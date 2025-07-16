@@ -1,5 +1,3 @@
-package Java;
-
 // LeetCode-style Problem: Find the Vertex of a Quadratic Equation
 //     Given three real numbers a, b, and c representing the coefficients of a quadratic equation:
 //         f(x) = ax² + bx + c

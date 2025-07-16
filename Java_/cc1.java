@@ -1,5 +1,3 @@
-package Java;
-
 // Reverse String
 // Given a string s, return the string reversed.
 // You must build the reversed string without using the built-in reverse() method.

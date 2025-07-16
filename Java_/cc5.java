@@ -1,5 +1,3 @@
-package Java;
-
 // Problem: Quadratic Equation Solver
 
 // Given three real number coefficients `a`, `b`, and `c` of a quadratic equation of the form: ax² + bx + c = 0

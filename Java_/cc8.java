@@ -1,4 +1,3 @@
-package Java;
 /*
 LeetCode-style Problem: Longest Word in Sentence
 

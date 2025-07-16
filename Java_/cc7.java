@@ -1,4 +1,3 @@
-package Java;
 /*
  * LeetCode-style Problem (Easy-Medium): Find the Vertex and Type of a Quadratic
  * Equation

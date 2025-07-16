@@ -1,5 +1,3 @@
-package Java;
-
 //PROBLEM
 
 // Count Vowels

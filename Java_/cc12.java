@@ -1,4 +1,3 @@
-package Java;
 /*
  * LeetCode-style Problem: Square Each Number
  *
@@ -27,7 +26,8 @@ package Java;
  */
 
 // import list and arraylist
-// create a class
+// import java.lang.Math;
+
 // create the main method inside the class
 // public static void main(String[] args) {}
 //      create a new variable of int[] type for the parameter

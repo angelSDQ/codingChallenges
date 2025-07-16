@@ -1,5 +1,3 @@
-package Java;
-
 // Palindrome Check
 // Given a string s, return true if s is a palindrome, and false otherwise.
 // Ignore casing and non-alphanumeric characters.

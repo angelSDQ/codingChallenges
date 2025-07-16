@@ -1,4 +1,3 @@
-package Java;
 /**
  * LeetCode-style Problem: Reverse a List
  *
